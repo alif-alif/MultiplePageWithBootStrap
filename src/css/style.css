@@ -1,0 +1,125 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/c1.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/s2.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/s3.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getready {
+  background: url(../img/white-clouds-2775196.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #getready .dark-overlay {
+    background: rgba(153, 170, 187, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  background: url(../img/aerial-photo-of-empty-meandering-road-in-between-forest-2876511.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #home-video .dark-overlay {
+    background: rgba(153, 170, 187, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px;
+      color: #ff0000; }
+
+#gallery img {
+  height: 250px; }
+
+#copyright {
+  background: #000; }
+
+#newslatter .dark-overlay {
+  background: rgba(153, 170, 187, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*About US */
+#pageheader {
+  background: url("../img/close-up-photography-of-pink-flowers-1408221.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#box .fa {
+  font-size: 50px;
+  margin-bottom: 15px; }
+
+/* testimonial */
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+/* Services */
+#services-header {
+  background: url("../img/ballpen-blur-close-up-computer-461077.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/* Blog */
+#blog-header {
+  background: url("../img/colored-pencils-on-a-gray-desk-with-paper-clips-and-folders-159627.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/* contact-header */
+#contact-header {
+  background: url("../img/coffee-contact-email-hands-4831.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/* Media Query */
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5; }
+  #getstarted {
+    min-height: 300px; } }
