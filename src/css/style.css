@@ -9,22 +9,22 @@
   height: 450px; }
 
 .carousel-img-1 {
-  background: url("../img/c1.jpg");
+  background: url("../img/iPhone-11-Pro.jpg");
   background-size: cover; }
 
 .carousel-img-2 {
-  background: url("../img/s2.jpg");
+  background: url("../img/19s.jpg");
   background-size: cover; }
 
 .carousel-img-3 {
-  background: url("../img/s3.jpg");
+  background: url("../img/s1.jpg");
   background-size: cover; }
 
 #homeicon .fa {
   font-size: 50px; }
 
 #getready {
-  background: url(../img/white-clouds-2775196.jpg);
+  background: url(../img/ss2.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@
     height: 100%; }
 
 #home-video {
-  background: url(../img/aerial-photo-of-empty-meandering-road-in-between-forest-2876511.jpg);
+  background: url(../img/sid.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 
 /*About US */
 #pageheader {
-  background: url("../img/close-up-photography-of-pink-flowers-1408221.jpg");
+  background: url("../img/about.jpg");
   background-size: cover;
   height: 200px;
   background-attachment: fixed; }
@@ -111,12 +111,32 @@
   height: 200px;
   background-attachment: fixed; }
 
+.navbar li
+.login_click {
+  border-left: 1px solid #ffffff;
+  margin-left: 10px;
+  font-weight: bold;
+  opacity: 0.9; }
+
+.navbar li
+.signup_click {
+  font-weight: bold; }
+
+.modal
+.col-4
+.btn {
+  margin-top: 50px; }
+
 /* Media Query */
 @media (max-width: 767px) {
   .nav-item {
     padding-left: 0 !important; }
   #getstarted {
     min-height: 300px; } }
+
+.login-box, .register-box {
+  width: 360px;
+  margin: 1% auto; }
 
 @media (max-width: 480px) {
   .carousel h2 {
